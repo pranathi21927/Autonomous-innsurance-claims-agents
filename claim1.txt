@@ -25,7 +25,7 @@ def extract_fields(text):
 
     return fields
 
-with open("claim3.txt", "r") as file:
+with open("claim1.txt", "r") as file:
     text = file.read()
 
 fields = extract_fields(text)
